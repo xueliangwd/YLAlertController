@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F39BD60A1FC666DF00DD13B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F39BD6091FC666DF00DD13B4 /* AppDelegate.m */; };
+		F39BD60D1FC666DF00DD13B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39BD60C1FC666DF00DD13B4 /* ViewController.m */; };
+		F39BD6101FC666DF00DD13B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39BD60E1FC666DF00DD13B4 /* Main.storyboard */; };
+		F39BD6121FC666DF00DD13B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39BD6111FC666DF00DD13B4 /* Assets.xcassets */; };
+		F39BD6151FC666DF00DD13B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39BD6131FC666DF00DD13B4 /* LaunchScreen.storyboard */; };
+		F39BD6181FC666DF00DD13B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F39BD6171FC666DF00DD13B4 /* main.m */; };
+		F39BD6221FC666DF00DD13B4 /* YLAlertControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F39BD6211FC666DF00DD13B4 /* YLAlertControllerUITests.m */; };
+		F39BD6301FC6688100DD13B4 /* UIAlertController+UICustom.m in Sources */ = {isa = PBXBuildFile; fileRef = F39BD62F1FC6688100DD13B4 /* UIAlertController+UICustom.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F39BD61E1FC666DF00DD13B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F39BD5FD1FC666DF00DD13B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F39BD6041FC666DF00DD13B4;
+			remoteInfo = YLAlertController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F39BD6051FC666DF00DD13B4 /* YLAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39BD6081FC666DF00DD13B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F39BD6091FC666DF00DD13B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F39BD60B1FC666DF00DD13B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F39BD60C1FC666DF00DD13B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F39BD60F1FC666DF00DD13B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F39BD6111FC666DF00DD13B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F39BD6141FC666DF00DD13B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F39BD6161FC666DF00DD13B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39BD6171FC666DF00DD13B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F39BD61D1FC666DF00DD13B4 /* YLAlertControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLAlertControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39BD6211FC666DF00DD13B4 /* YLAlertControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLAlertControllerUITests.m; sourceTree = "<group>"; };
+		F39BD6231FC666DF00DD13B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39BD62E1FC6688100DD13B4 /* UIAlertController+UICustom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+UICustom.h"; sourceTree = "<group>"; };
+		F39BD62F1FC6688100DD13B4 /* UIAlertController+UICustom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+UICustom.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F39BD6021FC666DF00DD13B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39BD61A1FC666DF00DD13B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F39BD5FC1FC666DF00DD13B4 = {
+			isa = PBXGroup;
+			children = (
+				F39BD6071FC666DF00DD13B4 /* YLAlertController */,
+				F39BD6201FC666DF00DD13B4 /* YLAlertControllerUITests */,
+				F39BD6061FC666DF00DD13B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F39BD6061FC666DF00DD13B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F39BD6051FC666DF00DD13B4 /* YLAlertController.app */,
+				F39BD61D1FC666DF00DD13B4 /* YLAlertControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F39BD6071FC666DF00DD13B4 /* YLAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				F39BD6081FC666DF00DD13B4 /* AppDelegate.h */,
+				F39BD6091FC666DF00DD13B4 /* AppDelegate.m */,
+				F39BD60B1FC666DF00DD13B4 /* ViewController.h */,
+				F39BD60C1FC666DF00DD13B4 /* ViewController.m */,
+				F39BD60E1FC666DF00DD13B4 /* Main.storyboard */,
+				F39BD62C1FC6670600DD13B4 /* Classes */,
+				F39BD6111FC666DF00DD13B4 /* Assets.xcassets */,
+				F39BD6131FC666DF00DD13B4 /* LaunchScreen.storyboard */,
+				F39BD6161FC666DF00DD13B4 /* Info.plist */,
+				F39BD6171FC666DF00DD13B4 /* main.m */,
+			);
+			path = YLAlertController;
+			sourceTree = "<group>";
+		};
+		F39BD6201FC666DF00DD13B4 /* YLAlertControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F39BD6211FC666DF00DD13B4 /* YLAlertControllerUITests.m */,
+				F39BD6231FC666DF00DD13B4 /* Info.plist */,
+			);
+			path = YLAlertControllerUITests;
+			sourceTree = "<group>";
+		};
+		F39BD62C1FC6670600DD13B4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F39BD62E1FC6688100DD13B4 /* UIAlertController+UICustom.h */,
+				F39BD62F1FC6688100DD13B4 /* UIAlertController+UICustom.m */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F39BD6041FC666DF00DD13B4 /* YLAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39BD6261FC666DF00DD13B4 /* Build configuration list for PBXNativeTarget "YLAlertController" */;
+			buildPhases = (
+				F39BD6011FC666DF00DD13B4 /* Sources */,
+				F39BD6021FC666DF00DD13B4 /* Frameworks */,
+				F39BD6031FC666DF00DD13B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLAlertController;
+			productName = YLAlertController;
+			productReference = F39BD6051FC666DF00DD13B4 /* YLAlertController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F39BD61C1FC666DF00DD13B4 /* YLAlertControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39BD6291FC666DF00DD13B4 /* Build configuration list for PBXNativeTarget "YLAlertControllerUITests" */;
+			buildPhases = (
+				F39BD6191FC666DF00DD13B4 /* Sources */,
+				F39BD61A1FC666DF00DD13B4 /* Frameworks */,
+				F39BD61B1FC666DF00DD13B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F39BD61F1FC666DF00DD13B4 /* PBXTargetDependency */,
+			);
+			name = YLAlertControllerUITests;
+			productName = YLAlertControllerUITests;
+			productReference = F39BD61D1FC666DF00DD13B4 /* YLAlertControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F39BD5FD1FC666DF00DD13B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = yxlGitHub;
+				TargetAttributes = {
+					F39BD6041FC666DF00DD13B4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					F39BD61C1FC666DF00DD13B4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F39BD6041FC666DF00DD13B4;
+					};
+				};
+			};
+			buildConfigurationList = F39BD6001FC666DF00DD13B4 /* Build configuration list for PBXProject "YLAlertController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F39BD5FC1FC666DF00DD13B4;
+			productRefGroup = F39BD6061FC666DF00DD13B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F39BD6041FC666DF00DD13B4 /* YLAlertController */,
+				F39BD61C1FC666DF00DD13B4 /* YLAlertControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F39BD6031FC666DF00DD13B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39BD6151FC666DF00DD13B4 /* LaunchScreen.storyboard in Resources */,
+				F39BD6121FC666DF00DD13B4 /* Assets.xcassets in Resources */,
+				F39BD6101FC666DF00DD13B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39BD61B1FC666DF00DD13B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F39BD6011FC666DF00DD13B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39BD60D1FC666DF00DD13B4 /* ViewController.m in Sources */,
+				F39BD6301FC6688100DD13B4 /* UIAlertController+UICustom.m in Sources */,
+				F39BD6181FC666DF00DD13B4 /* main.m in Sources */,
+				F39BD60A1FC666DF00DD13B4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39BD6191FC666DF00DD13B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39BD6221FC666DF00DD13B4 /* YLAlertControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F39BD61F1FC666DF00DD13B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F39BD6041FC666DF00DD13B4 /* YLAlertController */;
+			targetProxy = F39BD61E1FC666DF00DD13B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F39BD60E1FC666DF00DD13B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39BD60F1FC666DF00DD13B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F39BD6131FC666DF00DD13B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39BD6141FC666DF00DD13B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F39BD6241FC666DF00DD13B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F39BD6251FC666DF00DD13B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F39BD6271FC666DF00DD13B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YLAlertController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yxl.com.YLAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F39BD6281FC666DF00DD13B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YLAlertController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yxl.com.YLAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F39BD62A1FC666DF00DD13B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YLAlertControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yxl.com.YLAlertControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YLAlertController;
+			};
+			name = Debug;
+		};
+		F39BD62B1FC666DF00DD13B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YLAlertControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yxl.com.YLAlertControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YLAlertController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F39BD6001FC666DF00DD13B4 /* Build configuration list for PBXProject "YLAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39BD6241FC666DF00DD13B4 /* Debug */,
+				F39BD6251FC666DF00DD13B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39BD6261FC666DF00DD13B4 /* Build configuration list for PBXNativeTarget "YLAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39BD6271FC666DF00DD13B4 /* Debug */,
+				F39BD6281FC666DF00DD13B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39BD6291FC666DF00DD13B4 /* Build configuration list for PBXNativeTarget "YLAlertControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39BD62A1FC666DF00DD13B4 /* Debug */,
+				F39BD62B1FC666DF00DD13B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F39BD5FD1FC666DF00DD13B4 /* Project object */;
+}
