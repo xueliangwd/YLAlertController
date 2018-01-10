@@ -9,6 +9,9 @@
 #import "UIAlertController+UICustom.h"
 
 @implementation UIAlertController (UICustom)
++(void)showAlertWithTitle:(NSString*)title message:(NSString*)message action:(void (^)(UIAlertAction *action))handler{
+
+}
 //设置title 样式
 -(void)setattributedTitle:(NSAttributedString*)attriButeStr{
     [self setValue:attriButeStr forKey:@"attributedTitle"];
@@ -27,5 +30,9 @@
 //设置Action的title的对齐方式
 -(void)setTitleTextAlignment:(NSTextAlignment)textAligment{
      [self setValue:[NSNumber numberWithInteger:textAligment] forKey:@"titleTextAlignment"];
+}
+// 设置按钮背景图片
+-(void)setActionImage:(UIImage*)image{
+    [self setValue:image forKey:@"image"];
 }
 @end
